@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style parent="Theme.Design.Light.BottomSheetDialog" name="BottomSheetDialog">
+
+    <item name="bottomSheetStyle">@style/bottomSheetStyleWrapper</item>
+
+    </style>
+
+
+    <style parent="Widget.Design.BottomSheet.Modal" name="bottomSheetStyleWrapper">
+
+    <item name="behavior_peekHeight">350dp</item>
+
+    <item name="android:layout_margin">10dp</item>
+
+</style>
+</resources>
